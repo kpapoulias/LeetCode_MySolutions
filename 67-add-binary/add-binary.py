@@ -20,3 +20,13 @@ class Solution(object):
         if c == 1:
             res += str(c)
         return res[::-1]
+
+    # Using inbuilt functions
+    def addBinary1(self, a, b):
+        """
+        :type a: str
+        :type b: str
+        :rtype: str
+        """
+        s = bin(int(a,2) + int(b,2))
+        return s[2:]      
