@@ -29,4 +29,4 @@ class Solution(object):
         :rtype: str
         """
         s = bin(int(a,2) + int(b,2))
-        return s[2:]      
+        return s[2:]
